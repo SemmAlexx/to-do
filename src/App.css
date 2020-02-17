@@ -1,0 +1,207 @@
+.App {
+    text-align: center;
+}
+
+#root {
+    position: relative;
+}
+
+span {
+    pointer-events: none;
+}
+
+button,
+input,
+textarea:focus,
+:active,
+:hover {
+    outline: none !important;
+}
+
+strong {
+    text-align: center;
+    display: block;
+}
+
+input {
+    display: flex;
+    margin: 50px auto 20px;
+    align-items: center;
+    text-align: center;
+    height: 40px
+}
+
+.enterTextContent {
+    display: block;
+    margin: auto;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+button {
+    margin: auto;
+    background-color: transparent;
+    border-color: transparent;
+    display: grid;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.noteTitle {
+    text-align: center;
+    word-wrap: break-word;
+    padding: 15px;
+}
+
+.logo {
+    margin: 0px auto;
+    display: grid;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.note {
+    border: 1px solid;
+    padding: 0px;
+    margin: 5px;
+    position: relative;
+}
+
+.notesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.iconsContainer {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    position: absolute;
+    bottom: 0;
+}
+
+.noteBody {
+    word-wrap: break-word;
+    padding: 15px;
+    margin-bottom: 50px;
+}
+
+.iconButton {
+    cursor: pointer;
+    justify-content: center;
+    display: grid;
+}
+
+.model__openModalContainer {
+    border: 1px solid;
+    border-color: orange;
+    width: 50%;
+    min-height: 300px;
+    max-height: 600px;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.model__closeModalContainer {
+    display: none;
+}
+
+.model {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: white;
+}
+
+.model__changeTitle {
+    margin: 0px;
+}
+
+.model__changeBody {
+    height: 35%;
+}
+
+.model__change {
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.model__buttonSave {
+    padding-top: 70px;
+}
+
+.model__changeBody--comment {
+    height: auto;
+}
+
+.model__author {
+    margin-top: 0px;
+}
+
+.numbersComments {
+    position: absolute;
+    font-size: 10px;
+    font-weight: bold;
+    padding-left: 17px;
+    padding-bottom: 3.8px;
+}
+
+.buttonComments {
+    display: flex;
+    padding: 0px;
+    align-items: center;
+}
+
+.commentContainer {
+    border: 1px solid;
+    border-color: #f1efef;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.comentDate {
+    font-size: 10px;
+    font-weight: bold;
+    color: gray;
+}
+
+.containeButtons {
+    display: flex;
+    justify-content: center;
+}
+
+.containeButtons__button {
+    margin: 0;
+}
+
+.model__openModalContainer--settings {
+    max-height: 300px;
+}
+
+.model__buttonContainer {
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.model__buttonContainer--button {
+    margin: 0;
+    padding-top: 50px;
+}
+
+#model__Check--dataBase {
+    margin: 0px;
+    margin: 0px auto;
+}
+
+#model__Check--localStorage {
+    margin: 0px;
+    margin: 0px auto;
+}
